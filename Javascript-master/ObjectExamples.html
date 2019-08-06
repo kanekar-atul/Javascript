@@ -1,0 +1,30 @@
+<html>
+   <head>
+      <title>User-defined objects</title>     
+      <script type = "text/javascript">
+         var book = new Object();   // Create the object
+         book.subject = "Perl";     // Assign properties to the object
+         book.author  = "Mohtashim";
+
+
+         function book(title, author) {
+            this.title = title; 
+            this.author  = author;
+         }
+
+      </script>      
+   </head>
+   
+   <body>  
+      <script type = "text/javascript">
+         document.write("Book name is : " + book.subject + "<br>");
+         document.write("Book author is : " + book.author + "<br>");
+
+
+         var myBook = new book("Perl", "Mohtashim");
+         document.write("Book title is : " + myBook.title + "<br>");
+         document.write("Book author is : " + myBook.author + "<br>");
+         
+      </script>   
+   </body>
+</html>

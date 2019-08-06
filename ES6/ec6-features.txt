@@ -1,0 +1,17 @@
+ECMA Script6’s implementation discussed here covers the following new features −
+
+Support for constants
+Block Scope
+Arrow Functions
+Extended Parameter Handling
+Template Literals
+Extended Literals
+Enhanced Object Properties
+De-structuring Assignment
+Modules
+Classes
+Iterators
+Generators
+Collections
+New built in methods for various classes
+Promises

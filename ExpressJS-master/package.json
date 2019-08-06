@@ -1,0 +1,28 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "This is the expressJS app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanekar-atul/ExpressJS.git"
+  },
+  "keywords": [
+    "Express"
+  ],
+  "author": "Atul K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanekar-atul/ExpressJS/issues"
+  },
+  "homepage": "https://github.com/kanekar-atul/ExpressJS#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "pug": "^2.0.3"
+  }
+}

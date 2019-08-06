@@ -1,0 +1,187 @@
+
+<html>
+    <body>     
+       <script type = "text/javascript">
+           
+
+           document.write("<h2>If Condition Example</h2><br/>");
+           /*
+               If Condition Example
+           */
+             var age = 20;
+          
+             if( age > 18 ) {
+                document.write("<b>Qualifies for driving</b><br/>");
+             }
+
+
+            var age = 15;
+         
+            if( age > 18 ) {
+                document.write("<b>Qualifies for driving</b><br/>");
+            } else {
+                document.write("<b>Does not qualify for driving</b><br/>");
+            }
+           
+
+            
+           /*
+               If..Else Condition Example
+           */
+
+           document.write("<h2>If..Else Condition Example</h2><br/>");
+            var book = "maths";
+            if( book == "history" ) {
+               document.write("<b>History Book</b><br/>");
+            } else if( book == "maths" ) {
+               document.write("<b>Maths Book</b><br/>");
+            } else if( book == "economics" ) {
+               document.write("<b>Economics Book</b><br/>");
+            } else {
+               document.write("<b>Unknown Book</b><br/>");
+            }
+
+
+
+
+           /*
+               switch Condition Example
+           */
+           document.write("<h2>switch Condition Example</h2><br/>");
+            var grade = 'A';
+            document.write("Entering switch block<br />");
+            switch (grade) {
+               case 'A': document.write("Good job<br />");
+               break;
+            
+               case 'B': document.write("Pretty good<br />");
+               break;
+            
+               case 'C': document.write("Passed<br />");
+               break;
+            
+               case 'D': document.write("Not so good<br />");
+               break;
+            
+               case 'F': document.write("Failed<br />");
+               break;
+            
+               default:  document.write("Unknown grade<br />")
+            }
+            document.write("Exiting switch block <br/>");
+
+
+
+
+            var grade = 'A';
+            document.write("Entering switch block<br />");
+            switch (grade) {
+               case 'A': document.write("Good job<br />");
+               case 'B': document.write("Pretty good<br />");
+               case 'C': document.write("Passed<br />");
+               case 'D': document.write("Not so good<br />");
+               case 'F': document.write("Failed<br />");
+               default: document.write("Unknown grade<br />")
+            }
+            document.write("Exiting switch block");
+
+
+
+
+           /*
+               while Condition Example
+           */
+           document.write("<h2>while Condition Example</h2><br/>");
+
+            var count = 0;
+            document.write("Starting Loop ");
+         
+            while (count < 10) {
+               document.write("Current Count : " + count + "<br />");
+               count++;
+            }
+         
+            document.write("Loop stopped!");
+
+
+
+
+            
+           /*
+               do while Condition Example
+           */
+           document.write("<h2>do while Condition Example</h2><br/>");
+
+            var count = 0;
+            
+            document.write("Starting Loop" + "<br />");
+            do {
+               document.write("Current Count : " + count + "<br />");
+               count++;
+            }
+            
+            while (count < 5);
+            document.write ("Loop stopped!");
+
+
+
+            var count;
+            document.write("Starting Loop" + "<br />");
+         
+            for(count = 0; count < 10; count++) {
+               document.write("Current Count : " + count );
+               document.write("<br />");
+            }         
+            document.write("Loop stopped!");
+
+
+            var aProperty;
+            document.write("Navigator Object Properties<br /> ");        
+            for (aProperty in navigator) {
+               document.write(aProperty);
+               document.write("<br />");
+            }
+            document.write ("Exiting from the loop! >br/>");
+
+
+
+            
+           /*
+               Loop Control Condition Example
+           */
+           document.write("<h2>Loop Control Condition Example</h2><br/>");
+
+           var x = 1;
+           document.write("Entering the loop<br /> ");
+         
+           while (x < 20) {
+             if (x == 5) {
+               break;   // breaks out of loop completely
+             }
+             x = x + 1;
+             document.write( x + "<br />");
+           }         
+           document.write("Exiting the loop!<br /> ");
+
+
+
+           var x = 1;
+            document.write("Entering the loop<br /> ");
+         
+            while (x < 10) {
+               x = x + 1;
+               
+               if (x == 5) {
+                  continue;   // skip rest of the loop body
+               }
+               document.write( x + "<br />");
+            }         
+            document.write("Exiting the loop!<br /> ");
+
+            
+
+
+       </script>      
+       <p>Set the variable to different value and then try...</p>
+    </body>
+ </html>
