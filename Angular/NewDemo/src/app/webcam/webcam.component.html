@@ -1,0 +1,39 @@
+ 
+  
+ <!-- <div class="snapshot" *ngIf="webcamImage">
+    <h2>Nice one!</h2>
+    <img [src]="webcamImage.imageAsDataUrl"/>
+  </div>-->
+    
+
+
+  
+  <div class="row" style="display: nonex;padding: 300px;">
+      <div class="login-box">
+         
+          <!-- /.login-logo -->
+          <div class="login-box-body">
+          
+            <form action="../../index2.html" method="post">
+              <webcam [height]="400" [width]="400" [trigger]="triggerObservable" (imageCapture)="handleImage($event)" *ngIf="showWebcam"
+              [allowCameraSwitch]="allowCameraSwitch" [switchCamera]="nextWebcamObservable"
+              [videoOptions]="videoOptions"
+              (cameraSwitched)="cameraWasSwitched($event)"
+              (initError)="handleInitError($event)"
+            ></webcam>
+            <br/>
+              <div class="row"> 
+                <!-- /.col -->
+                <div class="col-xs-12">
+                  <button type="submit" class="btn btn-primary" (click)="triggerSnapshot();">Take A Snapshot</button>
+                </div>
+                <!-- /.col -->
+              </div>
+            </form> 
+         
+          </div>
+          <!-- /.login-box-body -->
+        </div>
+
+        
+   </div>

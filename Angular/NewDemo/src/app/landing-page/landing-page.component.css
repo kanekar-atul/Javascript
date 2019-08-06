@@ -1,0 +1,22 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: #dd4b39;
+    color: white;
+    text-align: center;
+    height: 7%;
+    padding-top: 10px;
+    font-size:1.5vw;
+    border-radius: 5px;
+  }
+
+
+  .transbox {
+    margin: 180px; 
+    opacity: 0.9;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+  }
+  
+  

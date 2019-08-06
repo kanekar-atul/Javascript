@@ -1,0 +1,17 @@
+.control-sidebar.control-sidebar-open, .control-sidebar.control-sidebar-open, .control-sidebar-bg{
+    width: 380px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: #dd4b39;
+    color: white;
+    text-align: center;
+    height: 7%;
+    padding-top: 10px;
+    font-size:1.5vw;
+    border-radius: 5px;
+  }
